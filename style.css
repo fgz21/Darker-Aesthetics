@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: roboto;
+	background: #000;
+
+}
+body{
+	height:200vh;
+	width: 100%;
+}
+
+
+nav{
+	
+	text-align: center;
+	font-size:20px;
+	margin-top: 15px;
+	padding:8px;
+}
+
+
+li a {
+	margin:10px;
+	color:white;
+	margin: 10px;
+	text-decoration: none;
+
+}
+
+.titulo-a{
+	font-weight:bold;
+}
+
+
+
+.primera-imagen{
+	position:relative;
+	width: 30%;
+	height:30%;
+	margin-right: 120px;
+	margin-top: 40px;
+	margin-left:62%;
+
+	
+}
+
+
+.titulo-section{
+	position: absolute;
+	color: white;
+	float: left;
+	font-weight: bold;
+	font-size: 30px;
+	top: 32%;
+	left: 20%;
+
+}
+
+.parrafo-section{
+	position: absolute;
+	color:rgb(122,89,44);
+	top:40%;
+	left:36%;
+	float:right;
+	text-align: right;
+
+}
+	
+hr{
+	position: absolute;
+	width: 25%;
+	top:38%;
+	left:20%;
+	color: rgb(122,89,44);
+}
+
+
+.simple-click{
+	position: absolute;
+	color: white;
+	top:67%;
+	left:20%;
+	border:rgb(122,89,44) 3px solid;
+	padding:10px;
+	text-decoration: none;
+}
+
+.segundo-titulo{
+	text-align: center;
+	color:white;
+	text-decoration:underline;
+	margin-top: 15px;
+
+}
+
+.segunda-imagen{
+
+	position:relative;
+	height: 30%;
+	width: auto;
+	margin-top: 5%;
+	margin-left: 18%;
+	
+}
+
+.segundo-parrafo-section{
+	position: absolute;
+	text-align:left;
+	color:white;
+	margin:30%;
+	height: 38%;
+	width: 35%;
+	top: 40%;
+	left: 20%;
+	background:rgba(255, 255, 255, 0.5);
+	padding: 50px;
+
+}
+
+.segunda-linea-del-hr{
+	position: relative;
+	color:white;
+	left: 40%;
+	background:rgb(122,89,44);
+
+}
+
+.tercer-imagen{
+	position:relative;
+	height: 30%;
+	width: auto;
+	margin-top: 5%;
+	margin-left: 50%;
+}
+
+
+.tercer-parrafo-section{
+	position: absolute;
+	text-align:left;
+	color:white;
+	margin:30%;
+	height: 38%;
+	width: 35%;
+	top: 120%;
+	right: 15%;
+	background:rgba(255, 255, 255, 0.5);
+	padding: 50px;
+}
+
